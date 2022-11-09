@@ -26,6 +26,6 @@ fclean: clean
 
 so:
 	$(CC) -nostartfiles -fPIC $(CFLAGS) $(OBJS) $(OBJS_B)
-	gcc -nostartfiles -shared -o libft.so $(SRCS) $(SRCS_B)
+	cc -nostartfiles -shared -o libft.so $(SRCS) $(SRCS_B)
 
 re: fclean all
