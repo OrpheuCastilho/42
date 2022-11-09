@@ -6,7 +6,7 @@
 #    By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/09 11:05:02 by gacastil          #+#    #+#              #
-#    Updated: 2022/11/09 11:05:04 by gacastil         ###   ########.fr        #
+#    Updated: 2022/11/09 18:24:18 by gacastil         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ SRCS = ft_itoa.c ft_split.c ft_strmapi.c ft_putchar_fd.c ft_putstr_fd.c ft_strit
 SRCS_B = ft_lstmap.c ft_lstnew.c ft_lstiter.c ft_lstsize.c ft_lstlast.c ft_lstadd_front.c ft_lstadd_back.c ft_lstclear.c ft_lstdelone.c
 OBJS = $(SRCS:.c=.o)
 OBJS_B = $(SRCS_B:.c=.o)
-CC  = gcc
+CC  = cc
 CFLAGC = -Wall -Wextra -Werror
 NAME = libft.a
 
