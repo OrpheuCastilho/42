@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 20:33:44 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:34:24 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:45:53 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,17 +34,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * num);
 }
-
-/*
-
-Converte strings em números inteiros
-
-int   main(void)
-{
-    char    nptr1[] = " 1257 -  -----1234ab567";
-    char    nptr2[] = " 1257 -  -----1234ab567";
-    printf("Teste1:\nString: %s\n", nptr1);
-    printf("Return: %d\n", ft_atoi(nptr1));
-    printf("Teste2:\nString: %s\n", nptr2);
-    printf("Return: %d\n", atoi(nptr2));
-}*/

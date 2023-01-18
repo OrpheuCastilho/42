@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/16 21:15:04 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:34:59 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:46:37 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-
-/* int main()
-{
-const char str[] = "http://www.w3cschool.cc";
-   const char ch = '.';
-   char *ret;
-
-   ret = ft_memchr(str, ch, ft_strlen(str));
-
-   printf("|%c| asdf - |%s|\n", ch, ret);
-
-   return(0);
-} */

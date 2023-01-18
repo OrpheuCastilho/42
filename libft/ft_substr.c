@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:42:36 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:36:07 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:48:13 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	final[i] = '\0';
 	return (final);
 }
-/*
-Converte strings em números inteiros:
-
-int		main()
-{
-	char str[] = "aaa bbb ccc";
-	char *asd;
-	int start = 1;
-	int length = 5;
-	printf("%s\n", str);
-	asd = ft_substr(str, start, length);
-	printf("%s\n", asd);
-	return (0);
-}*/

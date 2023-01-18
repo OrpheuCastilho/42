@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:52:28 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:36:04 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:48:08 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,16 +48,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	new[end] = '\0';
 	return (new);
 }
-
-/* int	main(void)
-{
-	char	*str = "Yuri Geovani";
-	char	*set = "ueLi";
-	printf("%s", "str = ");
-	printf("%s\n", str);
-	printf("%s", "set = ");
-	printf("%s\n\n", set);
-	printf("%s", "ft_strtrim = ");
-	printf("%s\n", ft_strtrim(str, set));
-	return (0);
-} */

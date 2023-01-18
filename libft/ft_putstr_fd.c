@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:59:58 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:35:23 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:47:11 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-/* int	main(void)
-{
-	char	a[] = "Yuri";
-	printf("%s", "a = ");
-	printf("%s\n", a);
-	printf("%s\n\n", "ft_putstr_fd =");
-	ft_putstr_fd(a, 1);
-	return (0);
-} */

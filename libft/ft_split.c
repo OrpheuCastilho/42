@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:52:59 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:35:27 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:47:16 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,27 +74,3 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
-
-/* int	main(void)
-{
- 	char	*str = "Yuri Geovani";
-	char	sep = 'e';
-	char	**result = ft_split(str, sep);
-	int		i;
-	i = 0;
-	while (result[i])
-	{
-		puts(result[i]);
-		i++;
-	}
-
-	printf(ft_split("asdf asdf", 2));
-	return (0);
-}
-
-int    main(void)
-{
-    char    str[] = "123456 789 0";
-    printf("Return: %s\n", *ft_split(str, ' '));
-}
- */

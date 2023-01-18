@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:41:48 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:35:34 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:47:24 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ char	*ft_strdup(const char *s)
 	new[i] = '\0';
 	return (new);
 }
-/*
-int	main()
-{
-	char *a = "asdf asdf asdf";
-	char *b = ft_strdup(a);
-	puts(a);
-	puts(b);
-	return 0;
-}*/

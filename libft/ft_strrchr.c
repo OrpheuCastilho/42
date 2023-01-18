@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 15:40:58 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:36:02 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:48:03 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,3 @@ void	*ft_strrchr(const char *s, int c)
 	}
 	return (str);
 }
-
-/* int		main(void)
-{
-	char str[] = "asdf asdf asdf";
-	char	a;
-	a = 'u';
-	printf("%s", (char *)ft_strrchr(str, a));
-	printf("\n");
-	printf("%s", strrchr(str, a));
-	return (0);
-} */

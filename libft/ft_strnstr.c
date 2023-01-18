@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 13:39:59 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:35:58 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:47:58 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main()
-{
-	char big[] = "Ola, quem mesmo fala?
-		Não seai. Quem não mesmo sei. Não sei mesmo.";
-	char little[] = "fala";
-
-	printf("%s\n", ft_strnstr(big, little, 100));
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: gacastil <gacastil@student.42porto.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 20:58:12 by gacastil          #+#    #+#             */
-/*   Updated: 2023/01/16 10:35:02 by gacastil         ###   ########.fr       */
+/*   Updated: 2023/01/18 14:46:43 by gacastil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/* int main()
-{
-    char s1[10] = "'\0'abc";
-    char s2[10] = "'\0'abz";
-    
-    int n = 10;
-
-    printf("memcmp %d\n", memcmp(s1, s2, n));
-    printf("ft_memcmp %d\n", ft_memcmp(s1, s2, n));
-    
-    return 0;
-} */
