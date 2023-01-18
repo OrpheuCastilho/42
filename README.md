@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **gabrielcastiilho@gmail.com**
 
-- ⚡ Fun fact **I know Dom Pedro 1 name by heart**
+- ⚡ Fun fact **I almost got out of 42 for finishing my libft in the last second*
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
